@@ -3,7 +3,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 PATH="/usr/bin:${PATH}"
 PATH="/opt/homebrew/bin:${PATH}"
 
-# start terminal in x86_64
+# start terminal in x86_64 mode
 alias terminal_arm="env /usr/bin/arch -arm64 /bin/bash --login"
 alias terminal_x86_64="env /usr/bin/arch -x86_64 /bin/bash --login"
 
@@ -200,4 +200,8 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+
+
+# super computer loggin shortcuts
+alias ssh_nestum='ssh usr08@hpc-lab.sofiatech.bg'
 
