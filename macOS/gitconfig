@@ -10,8 +10,8 @@
 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 [user]
-	name = dkyurtov
-	email = dimitarkiurto@gmail.com
+	name = dimitarkyurtov
+	email = dimitarkiurtov@gmail.com
 [alias]
   review = "!f() { if [[ $# -eq 0 ]] ; then branch='master' ; else branch=$1 ; shift ; fi ; git push origin \"HEAD:refs/for/$branch\" \"$@\" ; } ; f"
   unpushed = log --branches --not --remotes --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
