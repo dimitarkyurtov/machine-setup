@@ -11,7 +11,7 @@
 	trustExitCode = true
 [user]
 	name = dkyurtov
-	email = dkyurtov@abaltatech.com
+	email = dimitarkiurto@gmail.com
 [alias]
   review = "!f() { if [[ $# -eq 0 ]] ; then branch='master' ; else branch=$1 ; shift ; fi ; git push origin \"HEAD:refs/for/$branch\" \"$@\" ; } ; f"
   unpushed = log --branches --not --remotes --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
