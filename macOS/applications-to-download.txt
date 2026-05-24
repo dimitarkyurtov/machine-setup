@@ -1,4 +1,0 @@
-Xcode
-SourceTree
-ChatGPT
-VS code
