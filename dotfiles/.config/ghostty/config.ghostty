@@ -1,0 +1,13 @@
+# Colors
+theme = Cobalt2
+
+# macOS
+macos-titlebar-style = hidden
+
+# Shell Integration
+# Disables cursor/title control but keeps other features like prompt marking
+shell-integration-features = no-cursor,sudo,no-title
+
+# Mouse & Interaction
+mouse-hide-while-typing = true
+mouse-scroll-multiplier = 2

@@ -8,3 +8,24 @@ brew install fzf
 
 # Starship prompt - https://starship.rs
 brew install starship
+
+# Syntax highlighing - https://github.com/zsh-users/zsh-syntax-highlighting
+brew install zsh-syntax-highlighting
+
+# ls alternative - https://github.com/eza-community/eza
+brew install eza
+
+# cd alternative - https://github.com/ajeetdsouza/zoxide
+brew install zoxide
+
+# Faster grep - https://github.com/burntsushi/ripgrep 
+brew install ripgrep
+
+# Faster find - https://github.com/sharkdp/fd#installation
+brew install fd
+
+# Cat with colors - https://github.com/sharkdp/bat 
+brew install bat
+
+# Dotfiles managing
+brew install stow
