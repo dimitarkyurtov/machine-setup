@@ -29,3 +29,9 @@ brew install bat
 
 # Dotfiles managing
 brew install stow
+
+# System information - https://github.com/fastfetch-cli/fastfetch
+brew install fastfetch
+
+# Windowing manager - https://github.com/nikitabobko/aerospace
+brew install --cask nikitabobko/tap/aerospace

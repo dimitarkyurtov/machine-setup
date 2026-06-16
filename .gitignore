@@ -8,3 +8,6 @@ dotfiles/.config/zsh/.zsh_sessions/
 
 # Raycast files
 dotfiles/.config/raycast
+
+# Homebrew files
+dotfiles/.config/homebrew/*

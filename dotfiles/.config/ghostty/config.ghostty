@@ -2,7 +2,7 @@
 theme = Cobalt2
 
 # macOS
-macos-titlebar-style = hidden
+# macos-titlebar-style = hidden
 
 # Shell Integration
 # Disables cursor/title control but keeps other features like prompt marking
