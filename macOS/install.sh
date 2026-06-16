@@ -35,3 +35,6 @@ brew install fastfetch
 
 # Windowing manager - https://github.com/nikitabobko/aerospace
 brew install --cask nikitabobko/tap/aerospace
+
+# Janky borders - https://github.com/FelixKratz/JankyBorders#bootstrap-with-aerospace
+brew install --cask felixkratz/tap/jankyborders
