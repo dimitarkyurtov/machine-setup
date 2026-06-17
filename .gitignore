@@ -11,3 +11,6 @@ dotfiles/.config/raycast
 
 # Homebrew files
 dotfiles/.config/homebrew/*
+
+# Zed binary/runtime files
+dotfiles/.config/zed/prompts/**/*.mdb

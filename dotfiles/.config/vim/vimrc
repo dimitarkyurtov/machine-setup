@@ -1,0 +1,63 @@
+" Remap Vim movement one key to the right:
+"   j  k  l  '  =  left  down  up  right
+"
+" Original Vim:
+"   h  j  k  l  =  left  down  up  right
+"
+" This file also preserves Vim's original single-quote mark jump on h.
+" Example:
+"   h a   behaves like old 'a
+"   h h   behaves like old ''
+"
+" Put this in ~/.vimrc for Vim.
+" For Neovim, put it in ~/.config/nvim/init.vim,
+" or source it from your init.lua.
+
+" -----------------------------
+" Normal mode movement
+" -----------------------------
+nnoremap j h
+nnoremap k j
+nnoremap l k
+nnoremap ' l
+
+" Preserve original mark-line jump:
+" old 'a  -> new h a
+" old ''  -> new h h
+nnoremap h '
+
+" Optional: preserve exact-position mark jump too.
+" old `a  -> new H a
+" old ``  -> new H H
+nnoremap H `
+
+" -----------------------------
+" Visual mode movement
+" -----------------------------
+vnoremap j h
+vnoremap k j
+vnoremap l k
+vnoremap ' l
+
+" -----------------------------
+" Operator-pending mode movement
+" -----------------------------
+" This makes commands like d', y', c' work with your new right key.
+" Example:
+"   d'  = delete to the right
+"   dj  = delete left
+"   dk  = delete down
+"   dl  = delete up
+onoremap j h
+onoremap k j
+onoremap l k
+onoremap ' l
+
+" -----------------------------
+" Optional: command-line mode
+" -----------------------------
+" Uncomment these if you also want the same keys while typing commands.
+" cnoremap <C-j> <Left>
+" cnoremap <C-k> <Down>
+" cnoremap <C-l> <Up>
+" cnoremap <C-'> <Right>
