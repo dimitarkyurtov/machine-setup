@@ -38,3 +38,6 @@ brew install --cask nikitabobko/tap/aerospace
 
 # Janky borders - https://github.com/FelixKratz/JankyBorders#bootstrap-with-aerospace
 brew install --cask felixkratz/tap/jankyborders
+
+# Zed code editor - https://zed.dev
+brew install --cask zed
