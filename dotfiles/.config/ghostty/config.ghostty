@@ -11,3 +11,11 @@ shell-integration-features = no-cursor,sudo,no-title
 # Mouse & Interaction
 mouse-hide-while-typing = true
 mouse-scroll-multiplier = 2
+
+# Vim like scrolling
+keybind = ctrl+u=scroll_page_fractional:-0.5
+keybind = ctrl+d=scroll_page_fractional:0.5
+keybind = ctrl+b=scroll_page_up
+keybind = ctrl+f=scroll_page_down
+keybind = ctrl+g=scroll_to_top
+keybind = ctrl+shift+g=scroll_to_bottom
