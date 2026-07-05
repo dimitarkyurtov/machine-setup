@@ -13,8 +13,8 @@ mouse-hide-while-typing = true
 mouse-scroll-multiplier = 2
 
 # Vim like scrolling
-keybind = ctrl+u=scroll_page_fractional:-0.5
-keybind = ctrl+d=scroll_page_fractional:0.5
+keybind = ctrl+u=scroll_page_fractional:-0.1
+keybind = ctrl+d=scroll_page_fractional:0.1
 keybind = ctrl+b=scroll_page_up
 keybind = ctrl+f=scroll_page_down
 keybind = ctrl+g=scroll_to_top
